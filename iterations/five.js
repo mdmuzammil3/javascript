@@ -1,5 +1,5 @@
 const coding = ["java", "cpp", "py", "rb", "js"]
-// coding.forEach( function (val){
+// coding.forEach( function (val){ forEach mein callback fn lagta hain callback fn ka koi name nahi hota hain
 //     console.log(val);
 // } )
 
@@ -12,9 +12,9 @@ const coding = ["java", "cpp", "py", "rb", "js"]
 //     console.log(item);
 // }
 
-// coding.forEach(printMe)
+// coding.forEach(printMe) alag se bhi function likh sakte hain
 
-// coding.forEach( (item, index, arr)=> {
+// coding.forEach( (item, index, arr)=> { ForEach ka ander ek se zyda parameter hota hain 
 //     console.log(item, index, arr);
 // } )
 

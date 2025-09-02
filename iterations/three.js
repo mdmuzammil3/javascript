@@ -9,7 +9,7 @@
 //     console.log(num);
 // }
 
-// const greetings = "hello world!"
+// const greetings = "hello world!" string par bhi kaam karta hain
 // for (const greet of greetings) {
 //     if(greet == " "){
 //         continue;
@@ -18,7 +18,7 @@
     
 // }
 
-//Maps(no duplicate value)
+//Maps(no duplicate value) map mein key value pair hota hain hain
 
 const map = new Map()
 
@@ -28,7 +28,7 @@ map.set('FR', "FRANCE")
 map.set('IN', "INDIA")
 // console.log(map);
 
-for (const [key, value] of map) {
+for (const [key, value] of map) { //sirf key lene array [IN => INDIA] print hota hain isliye de structure karte hain 
     // console.log(key); // key lene se alag alag array ata hain 
     // console.log(key, ':-', value);
     

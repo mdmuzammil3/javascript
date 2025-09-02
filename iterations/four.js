@@ -1,3 +1,4 @@
+//forin loop object object par iterate hota hain
 const myObject = {
     js : "javascript",
     cpp: "c++",

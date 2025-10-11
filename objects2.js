@@ -54,7 +54,7 @@ const user = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); janne ke liye ke isloggedin present hai ya nahi
 
 const course = {
     coursename: "js in hindi",

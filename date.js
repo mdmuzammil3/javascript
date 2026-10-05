@@ -1,7 +1,7 @@
 
 let myDate = new Date();
 // console.log(myDate.toString());
-// console.log(myDate.toDateString());
+// console.log( myDate.toDateString());
 
 // console.log(myDate.toISOString());
 
@@ -30,6 +30,6 @@ console.log(newDate.getDay());
 
 console.log(newDate.toLocaleString('default', {
     weekday: "narrow",
-    
+
 }))
 

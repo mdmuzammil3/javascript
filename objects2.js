@@ -1,7 +1,7 @@
 //singleton
 
-//const tinderUser = new Object();
-const tinderUser= {}
+//const tinderUser = new Object(); //singleton object
+const tinderUser = {} // non sigleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "muzammil ansari"
@@ -10,38 +10,38 @@ tinderUser.isLoggedIn = false
 
 const regularUser = {
     email: "mdm9585@gmail.com",
-    fullName : {
+    fullName: {
         username: {
-            fisrtName : "muzammil",
+            fisrtName: "muzammil",
             lastName: "ansari",
+        }
     }
-   }
 }
 
 // console.log(regularUser.fullName.username.fisrtName)
 
-const obj1 = {1: "A", 2:"B"}
-const obj2 = {3: "C", 4:"D"}
-const obj4 = {5: "E", 6:"F"}
+const obj1 = { 1: "A", 2: "B" }
+const obj2 = { 3: "C", 4: "D" }
+const obj4 = { 5: "E", 6: "F" }
 
 
 //const obj3 ={obj1 , obj2}
 //const obj3 = Object.assign({}, obj1, obj2, obj4);
-const obj3 = {...obj1, ...obj2} //sperade operation
+const obj3 = { ...obj1, ...obj2 } //sperade operation
 
 // console.log(obj3); 
 
 const user = [
     {
-        id : 1,
+        id: 1,
         email: "h@gmail.com"
     },
     {
-        id : 2,
+        id: 2,
         email: "m@gmail.com"
     },
     {
-        id : 3,
+        id: 3,
         email: "j@gmail.com"
     },
 ]
@@ -50,7 +50,7 @@ const user = [
 
 //console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser)); // array return hota hain toh loop laga sakte hain
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
@@ -62,9 +62,9 @@ const course = {
     courseInstructor: "muzammil"
 }
 
-// course.courseInstructor
+// course.courseInstructor iske jagah destructing karenge jo niche hain
 
-const {courseInstructor: instructor} = course
+const { courseInstructor: instructor } = course
 
 //console.log(courseInstructor);
 //console.log(instructor);

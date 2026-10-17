@@ -30,7 +30,7 @@ map.set('IN', "INDIA")
 
 for (const [key, value] of map) { //sirf key lene array [IN => INDIA] print hota hain isliye de structure karte hain 
     // console.log(key); // key lene se alag alag array ata hain 
-    // console.log(key, ':-', value);
+    console.log(key, ':-', value);
     
 }
 

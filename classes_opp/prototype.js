@@ -1,5 +1,5 @@
-// let myName = "hitesh     "
-// let mychannel = "chai     "
+let myName = "hitesh     "
+let mychannel = "chai     "
 
 // console.log(myName.trueLength);
 
@@ -11,23 +11,23 @@ let heroPower = {
     thor: "hammer",
     spiderman: "sling",
 
-    getSpiderPower: function(){
+    getSpiderPower: function () {
         console.log(`Spidy power is ${this.spiderman}`);
     }
 }
 
-Object.prototype.hitesh = function(){
+Object.prototype.hitesh = function () {
     console.log(`hitesh is present in all objects`);
 }
 
-Array.prototype.heyHitesh = function(){
+Array.prototype.heyHitesh = function () {
     console.log(`Hitesh says hello`);
 }
 
 // heroPower.hitesh()
 // myHeros.hitesh()
 // myHeros.heyHitesh()
-// heroPower.heyHitesh()
+// heroPower.heyHitesh() //error qk array ko prototype diya hain
 
 // inheritance
 
@@ -57,7 +57,7 @@ Object.setPrototypeOf(TeachingSupport, Teacher)
 
 let anotherUsername = "ChaiAurCode     "
 
-String.prototype.trueLength = function(){
+String.prototype.trueLength = function () {
     console.log(`${this}`);
     console.log(`True length is: ${this.trim().length}`);
 }
@@ -65,3 +65,5 @@ String.prototype.trueLength = function(){
 anotherUsername.trueLength()
 "hitesh".trueLength()
 "iceTea".trueLength()
+myName.trueLength();
+mychannel.trueLength();

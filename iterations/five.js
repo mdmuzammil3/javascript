@@ -1,11 +1,11 @@
 const coding = ["java", "cpp", "py", "rb", "js"]
-// coding.forEach( function (val){ forEach mein callback fn lagta hain callback fn ka koi name nahi hota hain
+// coding.forEach(function (val) { //forEach mein callback fn lagta hain callback fn ka koi name nahi hota hain
 //     console.log(val);
-// } )
+// })
 
-// coding.forEach( (item) => {
+// coding.forEach((item) => {
 //     console.log(item);
-    
+
 // })
 
 // function printMe(item){
@@ -14,9 +14,9 @@ const coding = ["java", "cpp", "py", "rb", "js"]
 
 // coding.forEach(printMe) alag se bhi function likh sakte hain
 
-// coding.forEach( (item, index, arr)=> { ForEach ka ander ek se zyda parameter hota hain 
+// coding.forEach((item, index, arr) => { //ForEach ka ander ek se zyda parameter hota hain
 //     console.log(item, index, arr);
-// } )
+// })
 
 const myCoding = [
     {
@@ -33,7 +33,7 @@ const myCoding = [
     },
 ]
 
-myCoding.forEach( (item) => {
-    
+myCoding.forEach((item) => {
+
     console.log(item.languageName);
-} )
+})

@@ -29,6 +29,7 @@ button {
   font-size: 30px;
   border-style: none;
   margin-top: 30px;
+  cursor: pointer;
   /* margin-left: 50px; */
 }
 
